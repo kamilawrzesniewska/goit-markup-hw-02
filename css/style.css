@@ -1,0 +1,106 @@
+:root {
+      --main-font: font-family: 'Roboto', sans-serif;
+      --secondary-font: font-family: 'Raleway', sans-serif;
+      --main-color:#2196F3;
+    }
+
+body {
+    font-family: var(--main-font);
+}
+
+/* HEADER */
+
+.navigation-list-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.1429;
+letter-spacing: 2%;
+color: #212121;
+}
+.navigation-list-link:hover,
+.navigation-list-link:focus {color: var(--main-color);}
+
+.address-mail, .address-phone {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1429;
+    letter-spacing: 2%;
+    color: #757575;
+}
+.address-mail:hover,
+.address-mail:focus {color: var(--main-color);}
+.address-phone:hover,
+.address-phone:focus{color: var(--main-color);}
+
+/* END HEADER */
+/* MAIN */
+/* hero*/
+.main-header{
+    font-family: var(--secondary-font);
+    font-weight: 900;
+    font-style: black;
+    font-size: 44px;
+    line-height: 1.3636;
+    letter-spacing: 6%;
+    color: #2196F3 ; /*KOLOR BIAŁY*/
+
+ }
+.modal-btn{
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-style: bold;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 6%;
+    color: #ffffff ; /*KOLOR BIAŁY*/
+}
+/* end hero*/
+/* agencja*/
+.header-three{
+    font-style: bold;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 3%;
+    color: #212121;
+}
+.description-text{
+    font-weight: 400; 
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 3%;
+    color: #757575;
+}
+/* end agencja*/
+/*portfolio*/
+.header-two{
+    font-style: bold;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.167;
+    letter-spacing: 3%;
+    color: #212121;
+}
+/* end portfolio*/
+/*kontakt*/
+.header-three-contact{
+    font-style: medium;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.188;
+    letter-spacing: 3%;
+    color: #212121;
+}
+.description-text-contact{
+    font-weight: 400; 
+    font-size: 16px;
+    line-height: 1.186;
+    letter-spacing: 3%;
+    color: #757575;
+
+    /*end kontakt*/
+
+
+
+/* END MAIN */
